@@ -1,0 +1,39 @@
+http://www.anseilen.org/puki/index.php?CentOS%2F%BA%C7%BE%AE%B9%BD%C0%AE%A5%B5%A1%BC%A5%D0%B9%BD%C3%DB
+yum -y install gcc* zlib-devel openssl-devel perl cpio expat-devel gettext-devel curl-devel libevent-devel ncurses-devel pam-devel bridge-utils
+
+system-config-securitylevel-tui
+setup
+
+-tmux http://tmux.sourceforge.net/
+-zsh http://sourceforge.net/projects/zsh/files/
+-emacs http://ftp.gnu.org/pub/gnu/emacs/
+-ruby http://www.ruby-lang.org/ja/downloads/
+-gauche http://practical-scheme.net/gauche/download-j.html
+-git http://git-scm.com/
+
+openvpn
+lzo
+
+export PATH=/sbin:/usr/sbin:$PATH
+
+キーバインド	コマンド
+C-b ?		ショートカットキーのリストを表示
+C-b c		新しいウィンドウを作成
+C-b n		次のウィンドウへ移動
+C-b p		前のウィンドウへ移動
+C-b w		ウィンドウの選択メニューを表示
+C-b d		セッションのデタッチ
+C-b :		コマンドプロンプトの開始
+C-b [		コピーモードの開始
+C-b ]		バッファ内容のペースト
+C-b q		ペインのインジケータを表示
+C-b t		ペイン全体に時計を表示
+C-b %		ウィンドウを左右のペインに分割
+C-b o		次のペインへ移動
+C-b {		ペインの入れ替え
+C-b }		ペインの入れ替え(逆順)
+C-b M-↑	ペインの上下分割位置を上へ移動
+C-b M-↓	ペインの上下分割位置を下へ移動
+C-b M-←	ペインの左右分割位置を左へ移動
+C-b M-→	ペインの左右分割位置を右へ移動
+C-b x		ペインの破棄
